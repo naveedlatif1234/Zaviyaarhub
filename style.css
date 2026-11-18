@@ -858,3 +858,53 @@ footer {
     font-size: 38px !important;
   }
 }
+
+/* FINAL ZAVIYAARHUB LIGHT THEME */
+
+body {
+  background: #f5f8fd !important;
+  color: #10284b !important;
+}
+
+.header {
+  background: #ffffff !important;
+}
+
+.hero {
+  background: linear-gradient(120deg, #e4f0ff, #ffffff) !important;
+}
+
+.hero h1 {
+  color: #073b78 !important;
+}
+
+.hero h1 span,
+.small-title {
+  color: #ff7100 !important;
+}
+
+.hero-text > p:not(.small-title) {
+  color: #52627a !important;
+}
+
+.primary-btn {
+  background: #ff7100 !important;
+  color: #ffffff !important;
+}
+
+.primary-btn:hover {
+  background: #073b78 !important;
+}
+
+.hero-card {
+  background: #073b78 !important;
+  color: #ffffff !important;
+}
+
+.hero-card p {
+  color: #ffffff !important;
+}
+
+.features {
+  background: #073b78 !important;
+}
