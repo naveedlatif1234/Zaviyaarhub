@@ -964,3 +964,58 @@ body {
     padding: 20px 8px !important;
   }
 }
+
+/* ZAVIYAARHUB PRODUCT CARD UPGRADE */
+
+.product-card {
+  background: #ffffff !important;
+  border: 1px solid #e0e9f5 !important;
+  border-radius: 18px !important;
+  overflow: hidden;
+  box-shadow: 0 5px 18px rgba(7,59,120,.08) !important;
+  transition: .25s ease;
+}
+
+.product-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 12px 25px rgba(7,59,120,.14) !important;
+}
+
+.product-card img {
+  background: #f5f8fd;
+}
+
+.product-card h3 {
+  color: #073b78 !important;
+  font-weight: 700;
+}
+
+.product-card .price {
+  color: #ff7100 !important;
+  font-weight: 800;
+}
+
+.product-card .add-btn {
+  background: #ff7100 !important;
+  color: white !important;
+  border-radius: 25px !important;
+  font-weight: bold;
+}
+
+.product-card .add-btn:hover {
+  background: #073b78 !important;
+}
+
+.section-heading {
+  color: #073b78 !important;
+}
+
+@media(max-width:600px) {
+  .product-card {
+    border-radius: 14px !important;
+  }
+
+  .product-card h3 {
+    font-size: 15px;
+  }
+}
