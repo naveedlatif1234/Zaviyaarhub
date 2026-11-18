@@ -433,16 +433,16 @@ function checkout() {
 
   /*
     IMPORTANT:
-    Replace 923001234567 with your
+    Replace 03164215031 with your
     WhatsApp number.
 
     Example:
-    Pakistan number 03001234567
+    Pakistan number 03164215031
     becomes:
-    923001234567
+    923164215031
   */
 
-  const phone = "923001234567";
+  const phone = "923164215031";
 
 
   const whatsappURL =
