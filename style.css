@@ -908,3 +908,59 @@ body {
 .features {
   background: #073b78 !important;
 }
+
+/* ZAVIYAARHUB SEARCH AND CATEGORY DESIGN */
+
+.search-box {
+  background: #ffffff !important;
+  border: 2px solid #d7e5f7 !important;
+  border-radius: 30px !important;
+  padding: 14px 18px !important;
+  box-shadow: 0 4px 15px rgba(7,59,120,.08);
+}
+
+.search-box:focus-within {
+  border-color: #ff7100 !important;
+  box-shadow: 0 0 0 3px rgba(255,113,0,.12);
+}
+
+.search-box input {
+  color: #073b78 !important;
+}
+
+.search-box input::placeholder {
+  color: #8995a8;
+}
+
+.category-card {
+  background: #ffffff !important;
+  border: 1px solid #dce7f5 !important;
+  border-radius: 18px !important;
+  transition: .25s ease;
+}
+
+.category-card:hover {
+  border-color: #ff7100 !important;
+  transform: translateY(-5px);
+  box-shadow: 0 10px 25px rgba(7,59,120,.12);
+}
+
+.category-card h3 {
+  color: #073b78;
+}
+
+.category-card p {
+  color: #64748b;
+}
+
+@media(max-width:600px) {
+  .categories,
+  .products-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr)) !important;
+    gap: 12px;
+  }
+
+  .category-card {
+    padding: 20px 8px !important;
+  }
+}
