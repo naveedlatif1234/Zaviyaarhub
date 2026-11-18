@@ -63,15 +63,44 @@ const products = [
     icon: "🏠"
   },
 
-  {
-    id: 8,
-    name: "Storage Box Set",
-    category: "Household",
-    price: 1199,
-    icon: "📦"
-  }
+{
+  id: 8,
+  name: "Storage Box Set",
+  category: "Household",
+  price: 1199,
+  icon: "📦"
+},
+{
+  id: 9,
+  name: "Baby Feeding Bottle",
+  category: "Baby Care",
+  price: 650,
+  icon: "🍼"
+},
+{
+  id: 10,
+  name: "Baby Soft Toys",
+  category: "Baby Care",
+  price: 850,
+  icon: "🧸"
+},
+{
+  id: 11,
+  name: "Baby Care Gift Set",
+  category: "Baby Care",
+  price: 1499,
+  icon: "👶"
+},
+{
+  id: 12,
+  name: "Baby Bib Set",
+  category: "Baby Care",
+  price: 499,
+  icon: "🧷"
+}
 
 ];
+
 
 
 /* CART */
