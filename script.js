@@ -97,6 +97,35 @@ const products = [
   category: "Baby Care",
   price: 499,
   icon: "🧷"
+}.
+
+{
+  id: 13,
+  name: "Kitchen Storage Containers",
+  category: "Kitchen & Home",
+  price: 899,
+  icon: "🥡"
+},
+{
+  id: 14,
+  name: "Stainless Steel Water Bottle",
+  category: "Kitchen & Home",
+  price: 699,
+  icon: "🥤"
+},
+{
+  id: 15,
+  name: "Non-Stick Kitchen Utensils Set",
+  category: "Kitchen & Home",
+  price: 1299,
+  icon: "🍳"
+},
+{
+  id: 16,
+  name: "Multipurpose Cleaning Brush",
+  category: "Kitchen & Home",
+  price: 399,
+  icon: "🧹"
 }
 
 ];
