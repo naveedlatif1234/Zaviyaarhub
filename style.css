@@ -792,3 +792,69 @@ footer {
 .add-btn:hover {
   background: #ff7100 !important;
 }
+
+/* ZAVIYAARHUB PROFESSIONAL BANNER */
+
+.hero {
+  background: linear-gradient(120deg, #e4f0ff, #ffffff) !important;
+  padding: 75px 0 !important;
+}
+
+.hero-content {
+  gap: 35px !important;
+}
+
+.hero h1 {
+  color: #073b78;
+}
+
+.hero h1 span {
+  color: #ff7100 !important;
+}
+
+.hero-card {
+  background: linear-gradient(145deg, #073b78, #1261b5) !important;
+  color: white !important;
+  border-radius: 25px !important;
+  padding: 45px 25px !important;
+  box-shadow: 0 15px 35px rgba(7,59,120,.2) !important;
+}
+
+.hero-card h3 {
+  color: white;
+  font-size: 28px;
+}
+
+.hero-card h2 {
+  color: #ffd43b;
+  font-size: 32px;
+}
+
+.hero-card p {
+  color: white !important;
+}
+
+.hero-icon {
+  font-size: 75px;
+}
+
+.hero-shopping-icons {
+  font-size: 32px;
+  margin-top: 22px;
+}
+
+.hero-tagline {
+  margin-top: 25px;
+  font-weight: bold;
+  color: #073b78 !important;
+}
+
+@media(max-width:600px) {
+  .hero {
+    padding: 45px 0 !important;
+  }
+
+  .hero h1 {
+    font-size: 38px !important;
+  }
+}
