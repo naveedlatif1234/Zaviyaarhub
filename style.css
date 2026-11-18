@@ -722,3 +722,73 @@ footer {
     padding: 30px 20px;
   }
 }
+
+/* ZAVIYAARHUB COLOUR FIX */
+
+body {
+  background: #f5f8fd !important;
+  color: #10284b !important;
+}
+
+.header {
+  background: #ffffff !important;
+}
+
+.logo span,
+.small-title,
+.hero h1 span,
+.section-heading p,
+.product-category {
+  color: #ff7100 !important;
+}
+
+.nav-links a:hover {
+  color: #ff7100 !important;
+}
+
+.cart-btn,
+.filter-btn.active,
+.filter-btn:hover {
+  background: #073b78 !important;
+  color: white !important;
+}
+
+.cart-btn span {
+  background: white !important;
+  color: #073b78 !important;
+}
+
+.hero {
+  background: linear-gradient(120deg, #dcecff, #ffffff) !important;
+}
+
+.primary-btn {
+  background: #ff7100 !important;
+  color: white !important;
+  border-radius: 30px !important;
+}
+
+.hero-card {
+  background: white !important;
+  color: #073b78 !important;
+}
+
+.features {
+  background: #073b78 !important;
+}
+
+.about-box {
+  background: #eaf3ff !important;
+}
+
+footer {
+  background: #06264d !important;
+}
+
+.add-btn {
+  background: #073b78 !important;
+}
+
+.add-btn:hover {
+  background: #ff7100 !important;
+}
