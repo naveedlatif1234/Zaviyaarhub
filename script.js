@@ -79,7 +79,7 @@ function displayProducts(productList) {
   ${product.image
     ? `<img src="${product.image}" alt="${product.name}" style="width:100%;height:190px;object-fit:contain;">`
     : product.icon}
-</div>>
+</div>
 
         <div class="product-info">
           <div class="product-category">
@@ -373,7 +373,7 @@ function checkout() {
   const whatsappURL =
     `https://wa.me/${923164215031}?text=${encodeURIComponent(message)}`;
 
-  window.location.href = whatsappURL;
+  window.location.href = whatsappURL;}
 /* INITIAL LOAD */
 
 displayProducts(products);
