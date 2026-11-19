@@ -328,9 +328,53 @@
         <strong id="cartTotal">Rs. 0</strong>
       </div>
 
-      <button class="checkout-btn" onclick="checkout()">
-        Order via WhatsApp
-      </button>
+      
+<div class="checkout-details" style="margin-top:20px;">
+
+  <h3>Delivery Information</h3>
+
+  <input
+    type="text"
+    id="customerName"
+    placeholder="Your Full Name"
+    required
+    style="width:100%;padding:12px;margin:6px 0;box-sizing:border-box;"
+  >
+
+  <input
+    type="tel"
+    id="customerPhone"
+    placeholder="Your Mobile Number"
+    required
+    style="width:100%;padding:12px;margin:6px 0;box-sizing:border-box;"
+  >
+
+  <input
+    type="text"
+    id="customerCity"
+    placeholder="Your City"
+    required
+    style="width:100%;padding:12px;margin:6px 0;box-sizing:border-box;"
+  >
+
+  <textarea
+    id="customerAddress"
+    placeholder="Complete Delivery Address"
+    required
+    style="width:100%;padding:12px;margin:6px 0;box-sizing:border-box;"
+  ></textarea>
+
+  <label style="display:block;margin:12px 0;">
+    <input type="checkbox" id="cashOnDelivery" checked>
+    Cash on Delivery
+  </label>
+
+</div>
+
+<button class="checkout-btn" onclick="checkout()">
+  Confirm Order via WhatsApp
+</button>
+
 
     </div>
 
