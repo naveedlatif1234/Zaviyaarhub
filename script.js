@@ -97,7 +97,7 @@ const products = [
   category: "Baby Care",
   price: 499,
   icon: "🧷"
-}.
+},
 
 {
   id: 13,
