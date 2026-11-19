@@ -10,7 +10,16 @@
 const products = [
   { id: 1, name: "Premium Face Serum", category: "Cosmetics", price: 1499, icon: "✨" },
   { id: 2, name: "Lipstick Collection", category: "Cosmetics", price: 999, icon: "💄" },
-  { id: 3, name: "Wireless Earbuds", category: "Electronics", price: 2499, icon: "🎧" },
+  {
+  id: 3,
+  name: "Zavi-Yaar H895B TWS Wireless Earbuds",
+  category: "Electronics",
+  price: 1250,
+  icon: "🎧",
+  image: "h895b-earbuds.jpg",
+  description: "Bluetooth 5.3, deep bass, LED battery display, touch control and built-in microphone. Up to 5–6 hours playtime.",
+  delivery: "Free Delivery"
+},
   { id: 4, name: "Smart Watch", category: "Electronics", price: 3499, icon: "⌚" },
   { id: 5, name: "Fast Charging Cable", category: "Electronics", price: 799, icon: "🔌" },
   { id: 6, name: "LED Desk Lamp", category: "Household", price: 1299, icon: "💡" },
