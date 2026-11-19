@@ -76,8 +76,10 @@ function displayProducts(productList) {
     grid.innerHTML += `
       <div class="product-card">
         <div class="product-image">
-          ${product.icon}
-        </div>
+  ${product.image
+    ? `<img src="${product.image}" alt="${product.name}" style="width:100%;height:190px;object-fit:contain;">`
+    : product.icon}
+</div>>
 
         <div class="product-info">
           <div class="product-category">
