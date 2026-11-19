@@ -478,41 +478,7 @@ function checkout() {
     return;
   }
 
-  let total = 0;
-
-  let message = `NEW ORDER - ZAVIYAARHUB\n\n`;
-  message += `Customer Name: ${name}\n`;
-  message += `Customer Mobile: ${customerPhone}\n`;
-  message += `City: ${city}\n`;
-  message += `Delivery Address: ${address}\n`;
-  message += `Payment: Cash on Delivery\n\n`;
-  message += `ORDER DETAILS:\n`;
-
-  cart.forEach(item => {
-
-    const itemTotal = item.price * item.quantity;
-    total += itemTotal;
-
-    message += `${item.name} x ${item.quantity} - Rs. ${itemTotal.toLocaleString()}\n`;
-
-  });
-
-  message += `\nTOTAL: Rs. ${total.toLocaleString()}`;
-  message += `\n\nPlease confirm my order.`;
-
-  const phone = "923164215031";
-
-  const whatsappURL =
-    `https://wa.me/${phone}?text=${encodeURIComponent(message)}`;
-
-  window.open(whatsappURL, "_blank");
-
-}
-
-
-
-function checkout() {
-
+  
 
 
 
