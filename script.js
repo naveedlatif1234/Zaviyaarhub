@@ -513,11 +513,6 @@ function checkout() {
 
 function checkout() {
 
-  if (cart.length === 0) {
-    alert("Your cart is empty.");
-    return;
-  }
-
   const name = document.getElementById("customerName").value.trim();
   const mobile = document.getElementById("customerPhone").value.trim();
   const city = document.getElementById("customerCity").value.trim();
