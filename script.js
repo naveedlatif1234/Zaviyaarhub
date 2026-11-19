@@ -373,7 +373,8 @@ function checkout() {
   const whatsappURL =
     `https://wa.me/${923164215031}?text=${encodeURIComponent(message)}`;
 
-  window.location.href = whatsappURL;}
+  window.location.href = whatsappURL;
+}
 /* INITIAL LOAD */
 
 displayProducts(products);
