@@ -451,7 +451,68 @@ function closeCart(event) {
 }
 
 
+
 /* WHATSAPP CHECKOUT */
+
+function checkout() {
+
+  if (cart.length === 0) {
+    alert("Your cart is empty.");
+    return;
+  }
+
+  const name = document.getElementById("customerName").value.trim();
+  const customerPhone = document.getElementById("customerPhone").value.trim();
+  const city = document.getElementById("customerCity").value.trim();
+  const address = document.getElementById("customerAddress").value.trim();
+  const cod = document.getElementById("cashOnDelivery").checked;
+
+  if (!name || !customerPhone || !city || !address) {
+    alert("Please complete all delivery information.");
+    return;
+  }
+
+  if (!/^[0-9+\-\s]{10,16}$/.test(customerPhone)) {
+    alert("Please enter a valid mobile number.");
+    return;
+  }
+
+  if (!cod) {
+    alert("Currently, Cash on Delivery is the available payment method.");
+    return;
+  }
+
+  let total = 0;
+
+  let message = `NEW ORDER - ZAVIYAARHUB\n\n`;
+  message += `Customer Name: ${name}\n`;
+  message += `Customer Mobile: ${customerPhone}\n`;
+  message += `City: ${city}\n`;
+  message += `Delivery Address: ${address}\n`;
+  message += `Payment: Cash on Delivery\n\n`;
+  message += `ORDER DETAILS:\n`;
+
+  cart.forEach(item => {
+
+    const itemTotal = item.price * item.quantity;
+    total += itemTotal;
+
+    message += `${item.name} x ${item.quantity} - Rs. ${itemTotal.toLocaleString()}\n`;
+
+  });
+
+  message += `\nTOTAL: Rs. ${total.toLocaleString()}`;
+  message += `\n\nPlease confirm my order.`;
+
+  const phone = "923164215031";
+
+  const whatsappURL =
+    `https://wa.me/${phone}?text=${encodeURIComponent(message)}`;
+
+  window.open(whatsappURL, "_blank");
+
+}
+
 
 function checkout() {
 
