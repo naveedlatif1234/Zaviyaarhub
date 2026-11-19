@@ -570,64 +570,7 @@ function checkout() {
 }
 
 
-  if (cart.length === 0) {
 
-    alert("Your cart is empty.");
-
-    return;
-
-  }
-
-
-  let message =
-    "Hello! I want to place an order:%0A%0A";
-
-
-  let total = 0;
-
-
-  cart.forEach(item => {
-
-    const itemTotal =
-      item.price * item.quantity;
-
-    total += itemTotal;
-
-
-    message +=
-      `• ${item.name} × ${item.quantity} — Rs. ${itemTotal.toLocaleString()}%0A`;
-
-  });
-
-
-  message +=
-    `%0A*Total: Rs. ${total.toLocaleString()}*`;
-
-
-  /*
-    IMPORTANT:
-    Replace 03164215031 with your
-    WhatsApp number.
-
-    Example:
-    Pakistan number 03164215031
-    becomes:
-    923164215031
-  */
-
-  const phone = "923164215031";
-
-
-  const whatsappURL =
-    `https://wa.me/${phone}?text=${message}`;
-
-
-  window.open(
-    whatsappURL,
-    "_blank"
-  );
-
-}
 
 
 /* INITIAL LOAD */
