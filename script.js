@@ -456,10 +456,6 @@ function closeCart(event) {
 
 function checkout() {
 
-  if (cart.length === 0) {
-    alert("Your cart is empty.");
-    return;
-  }
 
   const name = document.getElementById("customerName").value.trim();
   const customerPhone = document.getElementById("customerPhone").value.trim();
