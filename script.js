@@ -360,12 +360,9 @@ function checkout() {
   message += `Please confirm my order. Thank you!`;
 
   const whatsappURL =
-    `https://wa.me/${whatsappNumber}?text=${encodeURIComponent(message)}`;
+    `https://wa.me/${923164215031}?text=${encodeURIComponent(message)}`;
 
-  window.open(whatsappURL, "_blank");
-}
-
-
+  window.location.href = whatsappURL;
 /* INITIAL LOAD */
 
 displayProducts(products);
